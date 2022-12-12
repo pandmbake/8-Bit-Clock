@@ -37,5 +37,25 @@ function showTime() {
         }
 
 
+        function colorChange() {
+            document.getElementById('h2').style.color = randomColors();
+            document.getElementById('main').style.backgroundColor = randomColors();
+            document.getElementById('clock').style.color = randomColors();
+            document.getElementById('greeting').style.color = randomColors();
+        function randomColors() {
+            return '#' + Math.floor(Math.random() * 16777215).toString(16);
+          }
+        
+          }
+
+          function resetColors() {
+            document.getElementById('h2').style.color = 'orange';
+            document.getElementById('main').style.backgroundColor = 'darkSlateGray';
+            document.getElementById('clock').style.color = 'black';
+            document.getElementById('greeting').style.color = 'orange';
+    
+          }
+
+
 
 showTime();
