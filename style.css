@@ -33,11 +33,11 @@ h3 {
 }
 
 .styleButtons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    margin-bottom: 3em;
-    gap: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+ 
+    gap: 3em;
 }
 
 #style1, #style2, #style3 {
