@@ -26,11 +26,19 @@ function showTime() {
             .innerHTML = currentTime;
 
 
-    if (hour >=12) {
+    if (am_pm === "AM") {
+        document.getElementById("greeting").innerHTML = "Good Morning!"
+    }
+
+    if (am_pm === "PM" && hour === 12) {
         document.getElementById("greeting").innerHTML = "Good Afternoon!"
     }
 
-    if (hour >=18) {
+    if (am_pm === "PM" && hour >= 1) {
+        document.getElementById("greeting").innerHTML = "Good Afternoon!"
+    }
+
+    if (am_pm === "PM" && hour >= 6) {
         document.getElementById("greeting").innerHTML = "Good Evening!"
     }
 
