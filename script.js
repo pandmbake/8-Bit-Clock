@@ -6,7 +6,7 @@ function showTime() {
     let sec = time.getSeconds();
     am_pm = "AM";
  
-    if (hour > 12) {
+    if (hour >= 12) {
         hour -= 12;
         am_pm = "PM";
     }
@@ -77,13 +77,13 @@ function showTime() {
             document.getElementById('h2').style.fontFamily = "'Press Start 2P', cursive";
             document.getElementById('creepy').style.fontFamily = "'Press Start 2P', cursive";
             document.getElementById('typewriter').style.fontFamily = "'Press Start 2P', cursive";
-            document.getElementById('threeD').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('dimensional').style.fontFamily = "'Press Start 2P', cursive";
             document.getElementById('creepy').style.fontSize = ".7em";
             document.getElementById('typewriter').style.fontSize = ".7em";
-            document.getElementById('threeD').style.fontSize = ".7em";
+            document.getElementById('dimensional').style.fontSize = ".7em";
             document.getElementById('creepy').style.width = "30em";
             document.getElementById('typewriter').style.width = "30em";
-            document.getElementById('threeD').style.width = "30em";
+            document.getElementById('dimensional').style.width = "30em";
             document.getElementById('changeColor').style.fontFamily = "'Press Start 2P', cursive";
             document.getElementById('resetColors').style.fontFamily = "'Press Start 2P', cursive";
             document.getElementById('changeColor').style.fontSize = ".7em";
@@ -107,22 +107,88 @@ function showTime() {
             document.getElementById('h2').style.color = "black";
             document.getElementById('greeting').style.color = "black";
             document.getElementById('clock').style.border = "4px solid black";
+            document.getElementById('clock').style.color = "black";
             document.getElementById('clock').style.marginTop = "-1em";
             document.getElementById('creepy').style.fontFamily = "'Creepster', cursive";
             document.getElementById('typewriter').style.fontFamily = "'Creepster', cursive";
-            document.getElementById('threeD').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('dimensional').style.fontFamily = "'Creepster', cursive";
             document.getElementById('changeColor').style.fontFamily = "'Creepster', cursive";
             document.getElementById('resetColors').style.fontFamily = "'Creepster', cursive";
             document.getElementById('creepy').style.fontSize = "1.3em";
             document.getElementById('typewriter').style.fontSize = "1.3em";
-            document.getElementById('threeD').style.fontSize = "1.3em";
+            document.getElementById('dimensional').style.fontSize = "1.3em";
             document.getElementById('changeColor').style.fontSize = "1.3em"
             document.getElementById('resetColors').style.fontSize = "1.3em"
             document.getElementById('creepy').style.width = "15em";
             document.getElementById('typewriter').style.width = "15em";
-            document.getElementById('threeD').style.width = "15em";
+            document.getElementById('dimensional').style.width = "15em";
             document.getElementById('greeting').style.marginBottom = "-.2em";
 
+          }
+
+          function typewriter() {
+            document.getElementById('h2').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('clock').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('greeting').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('main').style.backgroundImage = 'url("images/OIP.jpg")';
+            document.getElementById('main').style.backgroundSize = 'cover';
+            document.getElementById('h2').innerHTML = "Typewriter Clock";
+            document.getElementById('h2').style.fontSize = "4em";
+            document.getElementById('h2').style.marginTop = ".9em";
+            document.getElementById('clock').style.fontSize = "4em";
+            document.getElementById('greeting').style.fontSize = "3em";
+            document.getElementById('greeting').style.marginTop = ".77em";
+            document.getElementById('h2').style.color = "black";
+            document.getElementById('greeting').style.color = "black";
+            document.getElementById('clock').style.border = "4px solid black";
+            document.getElementById('clock').style.marginTop = "-.5em";
+            document.getElementById('creepy').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('typewriter').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('dimensional').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('changeColor').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('resetColors').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('creepy').style.fontSize = "1.3em";
+            document.getElementById('typewriter').style.fontSize = "1.3em";
+            document.getElementById('dimensional').style.fontSize = "1.3em";
+            document.getElementById('changeColor').style.fontSize = "1.3em"
+            document.getElementById('resetColors').style.fontSize = "1.3em"
+            document.getElementById('creepy').style.width = "15em";
+            document.getElementById('typewriter').style.width = "16em";
+            document.getElementById('dimensional').style.width = "15em";
+            document.getElementById('greeting').style.marginBottom = "-.2em";
+
+          }
+
+          function dimension() {
+            document.getElementById('h2').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('clock').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('greeting').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('main').style.backgroundImage = 'url("images/3d.jpeg")';
+            document.getElementById('main').style.backgroundSize = 'cover';
+            document.getElementById('h2').innerHTML = "3-D Clock";
+            document.getElementById('h2').style.fontSize = "4em";
+            document.getElementById('h2').style.marginTop = ".9em";
+            document.getElementById('clock').style.fontSize = "4em";
+            document.getElementById('greeting').style.fontSize = "3em";
+            document.getElementById('greeting').style.marginTop = ".77em";
+            document.getElementById('h2').style.color = "black";
+            document.getElementById('greeting').style.color = "black";
+            document.getElementById('clock').style.border = "4px solid black";
+            document.getElementById('clock').style.marginTop = "-.5em";
+            document.getElementById('creepy').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('typewriter').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('threeD').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('changeColor').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('resetColors').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('creepy').style.fontSize = "1.3em";
+            document.getElementById('typewriter').style.fontSize = "1.3em";
+            document.getElementById('dimensional').style.fontSize = "1.3em";
+            document.getElementById('changeColor').style.fontSize = "1.3em"
+            document.getElementById('resetColors').style.fontSize = "1.3em"
+            document.getElementById('creepy').style.width = "15em";
+            document.getElementById('typewriter').style.width = "16em";
+            document.getElementById('dimensional').style.width = "15em";
+            document.getElementById('greeting').style.marginBottom = "-.2em";
           }
 
 

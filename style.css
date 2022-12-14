@@ -1,6 +1,7 @@
 #main {
     background-image: url("images/R (1).jpeg");
     font-family: 'Press Start 2P', cursive;
+    background-size: cover;
 }
 
 h2 {
@@ -39,7 +40,7 @@ h3 {
     gap: 3em;
 }
 
-#creepy, #typewriter, #threeD {
+#creepy, #typewriter, #dimension {
     font-family: 'Press Start 2P', cursive;
     cursor: pointer;
     background-color: grey;
