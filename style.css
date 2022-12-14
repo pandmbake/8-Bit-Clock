@@ -1,5 +1,5 @@
 #main {
-    background-color: darkslategray;
+    background-image: url("images/R (1).jpeg");
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -36,16 +36,16 @@ h3 {
     display: flex;
     margin: auto;
     justify-content: center;
- 
     gap: 3em;
 }
 
-#style1, #style2, #style3 {
+#creepy, #typewriter, #threeD {
     font-family: 'Press Start 2P', cursive;
     cursor: pointer;
     background-color: grey;
     padding: 10px;
-    width: 17em;
+    width: 30em;
+    font-size: .7em;
 }
 
 
@@ -58,6 +58,7 @@ h3 {
     margin: auto;
     background-color: grey;
     padding: 10px;
+    font-size: .7em;
 
 }
 
@@ -70,5 +71,6 @@ h3 {
     background-color: grey;
     padding: 10px;
     margin-bottom: 3em;
+    font-size: .7em;
 
 }

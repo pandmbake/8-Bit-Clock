@@ -58,10 +58,71 @@ function showTime() {
 
           function resetColors() {
             document.getElementById('h2').style.color = 'orange';
-            document.getElementById('main').style.backgroundColor = 'darkSlateGray';
+            document.getElementById('h2').style.fontSize = '3em';
+            document.getElementById('h2').style.marginTop = '2em';
+            document.getElementById('h2').innerHTML = '8-Bit Clock';
+            document.getElementById('main').style.backgroundImage = 'url("images/R (1).jpeg")';
             document.getElementById('clock').style.color = 'black';
+            document.getElementById('clock').style.width= '700px';
+            document.getElementById('clock').style.padding = '10px';
+            document.getElementById('clock').style.border = 'solid 4px orange';
+            document.getElementById('clock').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('clock').style.fontSize = "40px";
+            document.getElementById('clock').style.marginTop = "0.01em";
             document.getElementById('greeting').style.color = 'orange';
+            document.getElementById('greeting').style.fontSize = '1.5em';
+            document.getElementById('greeting').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('greeting').style.marginTop = "2em";
+            document.getElementById('greeting').style.marginBottom = "1em";
+            document.getElementById('h2').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('creepy').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('typewriter').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('threeD').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('creepy').style.fontSize = ".7em";
+            document.getElementById('typewriter').style.fontSize = ".7em";
+            document.getElementById('threeD').style.fontSize = ".7em";
+            document.getElementById('creepy').style.width = "30em";
+            document.getElementById('typewriter').style.width = "30em";
+            document.getElementById('threeD').style.width = "30em";
+            document.getElementById('changeColor').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('resetColors').style.fontFamily = "'Press Start 2P', cursive";
+            document.getElementById('changeColor').style.fontSize = ".7em";
+            document.getElementById('resetColors').style.fontSize = ".7em";
+            
+            
     
+          }
+
+          function creepy() {
+            document.getElementById('h2').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('clock').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('greeting').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('main').style.backgroundImage = 'url("images/spooky-2.jpeg")';
+            document.getElementById('h2').innerHTML = "Creepy Clock";
+            document.getElementById('h2').style.fontSize = "5em";
+            document.getElementById('h2').style.marginTop = ".9em";
+            document.getElementById('clock').style.fontSize = "4em";
+            document.getElementById('greeting').style.fontSize = "3em";
+            document.getElementById('greeting').style.marginTop = ".6em";
+            document.getElementById('h2').style.color = "black";
+            document.getElementById('greeting').style.color = "black";
+            document.getElementById('clock').style.border = "4px solid black";
+            document.getElementById('clock').style.marginTop = "-1em";
+            document.getElementById('creepy').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('typewriter').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('threeD').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('changeColor').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('resetColors').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('creepy').style.fontSize = "1.3em";
+            document.getElementById('typewriter').style.fontSize = "1.3em";
+            document.getElementById('threeD').style.fontSize = "1.3em";
+            document.getElementById('changeColor').style.fontSize = "1.3em"
+            document.getElementById('resetColors').style.fontSize = "1.3em"
+            document.getElementById('creepy').style.width = "15em";
+            document.getElementById('typewriter').style.width = "15em";
+            document.getElementById('threeD').style.width = "15em";
+            document.getElementById('greeting').style.marginBottom = "-.2em";
+
           }
 
 
