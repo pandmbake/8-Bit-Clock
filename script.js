@@ -30,7 +30,7 @@ function showTime() {
         document.getElementById("greeting").innerHTML = "Good Morning!"
     }
 
-    if (am_pm === "PM" && hour === 12) {
+    if (am_pm === "PM" && hour == 12) {
         document.getElementById("greeting").innerHTML = "Good Afternoon!"
     }
 
@@ -159,7 +159,7 @@ function showTime() {
 
           }
 
-          function dimension() {
+          function dimensional() {
             document.getElementById('h2').style.fontFamily = "'Nabla', cursive";
             document.getElementById('clock').style.fontFamily = "'Nabla', cursive";
             document.getElementById('greeting').style.fontFamily = "'Nabla', cursive";
@@ -167,17 +167,17 @@ function showTime() {
             document.getElementById('main').style.backgroundSize = 'cover';
             document.getElementById('h2').innerHTML = "3-D Clock";
             document.getElementById('h2').style.fontSize = "4em";
-            document.getElementById('h2').style.marginTop = ".9em";
-            document.getElementById('clock').style.fontSize = "4em";
-            document.getElementById('greeting').style.fontSize = "3em";
-            document.getElementById('greeting').style.marginTop = ".77em";
+            document.getElementById('h2').style.marginTop = ".2em";
+            document.getElementById('clock').style.fontSize = "3.5em";
+            document.getElementById('greeting').style.fontSize = "2.5em";
+            document.getElementById('greeting').style.marginTop = ".40em";
             document.getElementById('h2').style.color = "black";
             document.getElementById('greeting').style.color = "black";
             document.getElementById('clock').style.border = "4px solid black";
-            document.getElementById('clock').style.marginTop = "-.5em";
+            document.getElementById('clock').style.marginTop = "-.9em";
             document.getElementById('creepy').style.fontFamily = "'Nabla', cursive";
             document.getElementById('typewriter').style.fontFamily = "'Nabla', cursive";
-            document.getElementById('threeD').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('dimensional').style.fontFamily = "'Nabla', cursive";
             document.getElementById('changeColor').style.fontFamily = "'Nabla', cursive";
             document.getElementById('resetColors').style.fontFamily = "'Nabla', cursive";
             document.getElementById('creepy').style.fontSize = "1.3em";

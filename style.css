@@ -40,7 +40,7 @@ h3 {
     gap: 3em;
 }
 
-#creepy, #typewriter, #dimension {
+#creepy, #typewriter, #dimensional {
     font-family: 'Press Start 2P', cursive;
     cursor: pointer;
     background-color: grey;
