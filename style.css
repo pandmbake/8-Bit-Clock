@@ -35,16 +35,32 @@ h3 {
 
 .styleButtons {
     display: flex;
-    margin: auto;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
 }
 
 #creepy, #typewriter, #dimensional {
+    display: flex;
+    justify-content: center;
     font-family: 'Press Start 2P', cursive;
     cursor: pointer;
     background-color: grey;
     padding: 10px;
-    width: 30em;
-    font-size: .7em;
+    width: 25em;
+    font-size: .5em;
+
+}
+
+#eightBit {
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    background-color: grey;
+    padding: 10px;
+    width: 25em;
+    font-size: .5em;
+    display: none;
+
+
 }

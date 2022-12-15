@@ -7,7 +7,7 @@ function showTime() {
     am_pm = "AM";
  
     if (hour >= 12) {
-        //hour -= 12;
+        hour -= 12;
         am_pm = "PM";
     }
     if (hour == 0) {
@@ -45,6 +45,11 @@ function showTime() {
         }
 
           function resetColors() {
+            document.getElementById('eightBit').style.display = 'none';
+            document.getElementById('dimensional').style.display = 'flex';
+            document.getElementById('typewriter').style.display = "flex";
+            document.getElementById('dimensional').style.display = 'flex';
+            document.getElementById('creepy').style.display = 'flex';
             document.getElementById('h2').style.color = 'orange';
             document.getElementById('h2').style.fontSize = '3em';
             document.getElementById('h2').style.marginTop = '2em';
@@ -74,7 +79,7 @@ function showTime() {
             document.getElementById('dimensional').style.width = "30em";
             document.getElementById('resetColors').style.fontFamily = "'Press Start 2P', cursive";
             document.getElementById('resetColors').style.fontSize = ".7em";
-            
+           
             
     
           }
@@ -86,7 +91,7 @@ function showTime() {
             document.getElementById('main').style.backgroundImage = 'url("images/spooky-2.jpeg")';
             document.getElementById('h2').innerHTML = "Creepy Clock";
             document.getElementById('h2').style.fontSize = "5em";
-            document.getElementById('h2').style.marginTop = ".5em";
+            document.getElementById('h2').style.marginTop = "1em";
             document.getElementById('clock').style.fontSize = "4em";
             document.getElementById('greeting').style.fontSize = "3em";
             document.getElementById('greeting').style.marginTop = ".6em";
@@ -95,8 +100,6 @@ function showTime() {
             document.getElementById('clock').style.border = "4px solid black";
             document.getElementById('clock').style.color = "black";
             document.getElementById('clock').style.marginTop = "-1em";
-            document.getElementById('creepy').style.fontFamily = "'Creepster', cursive";
-            document.getElementById('creepy').innerHTML = "Change to 8-Bit Clock";
             document.getElementById('typewriter').style.fontFamily = "'Creepster', cursive";
             document.getElementById('dimensional').style.fontFamily = "'Creepster', cursive";
             document.getElementById('creepy').style.fontSize = "1.3em";
@@ -106,6 +109,15 @@ function showTime() {
             document.getElementById('typewriter').style.width = "15em";
             document.getElementById('dimensional').style.width = "15em";
             document.getElementById('greeting').style.marginBottom = "-.2em";
+            document.getElementById('eightBit').style.display = "flex";
+            document.getElementById('eightBit').style.fontFamily = "'Creepster', cursive";
+            document.getElementById('eightBit').style.fontSize = '1.3em';
+            document.getElementById('eightBit').style.width = "15em";
+            document.getElementById('creepy').style.display = "none";
+            document.getElementById('typewriter').style.display = "flex";
+            document.getElementById('dimensional').style.display = "flex";
+           
+            
 
           }
 
@@ -117,7 +129,7 @@ function showTime() {
             document.getElementById('main').style.backgroundSize = 'cover';
             document.getElementById('h2').innerHTML = "Typewriter Clock";
             document.getElementById('h2').style.fontSize = "4em";
-            document.getElementById('h2').style.marginTop = ".9em";
+            document.getElementById('h2').style.marginTop = "1.5em";
             document.getElementById('clock').style.fontSize = "4em";
             document.getElementById('greeting').style.fontSize = "3em";
             document.getElementById('greeting').style.marginTop = ".77em";
@@ -135,6 +147,14 @@ function showTime() {
             document.getElementById('typewriter').style.width = "16em";
             document.getElementById('dimensional').style.width = "15em";
             document.getElementById('greeting').style.marginBottom = "-.2em";
+            document.getElementById('eightBit').style.display = "flex";
+            document.getElementById('eightBit').style.fontFamily = "'Special Elite', cursive";
+            document.getElementById('eightBit').style.fontSize = '1.3em';
+            document.getElementById('eightBit').style.width = "15em";
+            document.getElementById('typewriter').style.display = "none";
+            document.getElementById('creepy').style.display = 'flex';
+            document.getElementById('dimensional').style.display = 'flex';
+
 
           }
 
@@ -146,7 +166,7 @@ function showTime() {
             document.getElementById('main').style.backgroundSize = 'cover';
             document.getElementById('h2').innerHTML = "3-D Clock";
             document.getElementById('h2').style.fontSize = "4em";
-            document.getElementById('h2').style.marginTop = ".2em";
+            document.getElementById('h2').style.marginTop = "1em";
             document.getElementById('clock').style.fontSize = "3.5em";
             document.getElementById('greeting').style.fontSize = "2.5em";
             document.getElementById('greeting').style.marginTop = ".40em";
@@ -164,7 +184,16 @@ function showTime() {
             document.getElementById('typewriter').style.width = "16em";
             document.getElementById('dimensional').style.width = "15em";
             document.getElementById('greeting').style.marginBottom = "-.2em";
+            document.getElementById('eightBit').style.display = "flex";
+            document.getElementById('eightBit').style.fontFamily = "'Nabla', cursive";
+            document.getElementById('eightBit').style.fontSize = '1.3em';
+            document.getElementById('eightBit').style.width = "15em";
+            document.getElementById('dimensional').style.display = "none";
+            document.getElementById('typewriter').style.display = "flex";
+            document.getElementById('creepy').style.display = "flex";
           }
+
+          creepy.addEventListener('click', resetColors());
 
 
           //font-family: 'Creepster', cursive;
