@@ -48,30 +48,3 @@ h3 {
     width: 30em;
     font-size: .7em;
 }
-
-
-
-#changeColor {
-    font-family: 'Press Start 2P', cursive;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    background-color: grey;
-    padding: 10px;
-    font-size: .7em;
-
-}
-
-#resetColors {
-    font-family: 'Press Start 2P', cursive;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    background-color: grey;
-    padding: 10px;
-    margin-bottom: 3em;
-    font-size: .7em;
-
-}
