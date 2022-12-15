@@ -26,11 +26,11 @@ function showTime() {
             .innerHTML = currentTime;
 
 
-    if (am_pm === "AM") {
+    /*if (am_pm === "AM") {
         document.getElementById("greeting").innerHTML = "Good Morning!"
     }
 
-    if (am_pm === "PM" && hour == 12) {
+    if (am_pm === "PM" && hour === 12) {
         document.getElementById("greeting").innerHTML = "Good Afternoon!"
     }
 
@@ -40,7 +40,7 @@ function showTime() {
 
     if (am_pm === "PM" && hour >= 6) {
         document.getElementById("greeting").innerHTML = "Good Evening!"
-    }
+    }*/
 
         }
 
@@ -198,4 +198,4 @@ function showTime() {
 
 
 
-showTime();
+showTime(); 
