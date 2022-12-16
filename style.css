@@ -46,8 +46,8 @@ h3 {
     cursor: pointer;
     background-color: grey;
     padding: 10px;
-    width: 25em;
-    font-size: .5em;
+    width: 30em;
+    font-size: .7em;
 
 }
 
@@ -64,3 +64,24 @@ h3 {
 
 
 }
+
+
+@media screen and (max-width: 950px) {
+   #clock {
+    width: 500px;
+    }
+
+    .styleButtons {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    #clock {
+     width: 300px;
+     }
+ 
+     
+   }
