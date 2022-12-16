@@ -187,4 +187,3 @@ function dimensional() {
 //font-family: 'Special Elite', cursive;
 //font-family: 'Nabla', cursive;
 
-showTime();
