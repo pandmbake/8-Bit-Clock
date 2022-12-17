@@ -63,6 +63,7 @@ function creepy() {
   document.getElementById("dimensional").style.color = "black";
   document.getElementById("creepy").style.display = 'none';
   document.getElementById("typewriter").style.display = "flex";
+  document.getElementById("dimensional").style.display = "flex";
 }
 
 function typewriter() {
