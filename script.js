@@ -150,6 +150,7 @@ function dimensional() {
   document.getElementById("creepy").style.color = "yellow";
   document.getElementById("typewriter").style.color = "yellow";
   document.getElementById("dimensional").style.color = "yellow";
+  document.getElementById("styleButtons").style.display = "flex";
 }
 
 /*font-family: 'Creepster', cursive;
