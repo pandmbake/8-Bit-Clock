@@ -124,8 +124,8 @@ function dimensional() {
   document.getElementById("clock").style.fontSize = "3.5em";
   document.getElementById("greeting").style.fontSize = "2.5em";
   document.getElementById("greeting").style.marginTop = ".40em";
-  document.getElementById("h2").style.color = "black";
-  document.getElementById("greeting").style.color = "black";
+  document.getElementById("h2").style.color = "yellow";
+  document.getElementById("greeting").style.color = "yellow";
   document.getElementById("clock").style.border = "4px solid black";
   document.getElementById("clock").style.marginTop = "-.9em";
   document.getElementById("creepy").style.fontFamily = "'Nabla', cursive";
@@ -145,9 +145,9 @@ function dimensional() {
   document.getElementById("dimensional").style.display = "none";
   document.getElementById("typewriter").style.display = "flex";
   document.getElementById("creepy").style.display = "flex";
-  document.getElementById("creepy").style.color = "black";
-  document.getElementById("typewriter").style.color = "black";
-  document.getElementById("dimensional").style.color = "black";
+  document.getElementById("creepy").style.color = "yellow";
+  document.getElementById("typewriter").style.color = "yellow";
+  document.getElementById("dimensional").style.color = "yellow";
 }
 
 /*font-family: 'Creepster', cursive;
