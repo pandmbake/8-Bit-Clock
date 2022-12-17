@@ -86,6 +86,7 @@ function typewriter() {
   document.getElementById("greeting").style.color = "black";
   document.getElementById("clock").style.border = "4px solid black";
   document.getElementById("clock").style.marginTop = "-.5em";
+  document.getElementById("clock").style.color= "black";
   document.getElementById("creepy").style.fontFamily =
     "'Special Elite', cursive";
   document.getElementById("typewriter").style.fontFamily =
@@ -104,6 +105,7 @@ function typewriter() {
     "'Special Elite', cursive";
   document.getElementById("eightBit").style.fontSize = "1.3em";
   document.getElementById("eightBit").style.width = "15em";
+  document.getElementById("eightBit").style.color = "black";
   document.getElementById("typewriter").style.display = "none";
   document.getElementById("creepy").style.display = "flex";
   document.getElementById("dimensional").style.display = "flex";
@@ -113,13 +115,13 @@ function typewriter() {
 }
 
 function dimensional() {
-  document.getElementById("h2").style.fontFamily = "'Nabla', cursive";
-  document.getElementById("clock").style.fontFamily = "'Nabla', cursive";
-  document.getElementById("greeting").style.fontFamily = "'Nabla', cursive";
+  document.getElementById("h2").style.fontFamily = "'Macondo', cursive";
+  document.getElementById("clock").style.fontFamily = "'Macondo', cursive";
+  document.getElementById("greeting").style.fontFamily = "'Macondo', cursive";
   document.getElementById("main").style.backgroundImage =
-    'url("images/3d.jpeg")';
+    'url("images/night.png")';
   document.getElementById("main").style.backgroundSize = "cover";
-  document.getElementById("h2").innerHTML = "3-D Clock";
+  document.getElementById("h2").innerHTML = "Moon Clock";
   document.getElementById("h2").style.fontSize = "4em";
   document.getElementById("h2").style.marginTop = "1em";
   document.getElementById("h2").style.color= "yellow";
@@ -130,9 +132,9 @@ function dimensional() {
   document.getElementById("clock").style.border = "4px solid yellow";
   document.getElementById("clock").style.marginTop = "-.9em";
   document.getElementById("clock").style.color = "yellow";
-  document.getElementById("creepy").style.fontFamily = "'Nabla', cursive";
-  document.getElementById("typewriter").style.fontFamily = "'Nabla', cursive";
-  document.getElementById("dimensional").style.fontFamily = "'Nabla', cursive";
+  document.getElementById("creepy").style.fontFamily = "'Macondo', cursive";
+  document.getElementById("typewriter").style.fontFamily = "'Macondo', cursive";
+  document.getElementById("dimensional").style.fontFamily = "'Macondo', cursive";
   document.getElementById("creepy").style.fontSize = "1.3em";
   document.getElementById("typewriter").style.fontSize = "1.3em";
   document.getElementById("dimensional").style.fontSize = "1.3em";
@@ -141,9 +143,10 @@ function dimensional() {
   document.getElementById("dimensional").style.width = "15em";
   document.getElementById("greeting").style.marginBottom = "-.2em";
   document.getElementById("eightBit").style.display = "flex";
-  document.getElementById("eightBit").style.fontFamily = "'Nabla', cursive";
+  document.getElementById("eightBit").style.fontFamily = "'Macondo', cursive";
   document.getElementById("eightBit").style.fontSize = "1.3em";
   document.getElementById("eightBit").style.width = "15em";
+  document.getElementById("eightBit").style.color = "yellow";
   document.getElementById("dimensional").style.display = "none";
   document.getElementById("typewriter").style.display = "flex";
   document.getElementById("creepy").style.display = "flex";
@@ -155,5 +158,6 @@ function dimensional() {
 
 /*font-family: 'Creepster', cursive;
 font-family: 'Special Elite', cursive;
-font-family: 'Nabla', cursive;*/
+font-family: 'Nabla', cursive;
+font-family: 'Rubik Moonrocks', cursive;*/
 

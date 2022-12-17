@@ -4,6 +4,7 @@
     background-size: cover;
 }
 
+
 h2 {
     text-align: center;
     color: orange;
@@ -76,6 +77,8 @@ h3 {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         margin: auto;
+        justify-content: center;
+        justify-items: center;
 
     }
   }
