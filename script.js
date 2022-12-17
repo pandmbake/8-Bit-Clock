@@ -24,49 +24,7 @@ function checkTime(i) {
   return i;
 }
 
-function resetColors() {
-  document.getElementById("eightBit").style.display = "none";
-  document.getElementById("dimensional").style.display = "flex";
-  document.getElementById("typewriter").style.display = "flex";
-  document.getElementById("dimensional").style.display = "flex";
-  document.getElementById("creepy").style.display = "flex";
-  document.getElementById("h2").style.color = "orange";
-  document.getElementById("h2").style.fontSize = "3em";
-  document.getElementById("h2").style.marginTop = "2em";
-  document.getElementById("h2").innerHTML = "8-Bit Clock";
-  document.getElementById("main").style.backgroundImage =
-    'url("images/R (1).jpeg")';
-  document.getElementById("clock").style.color = "black";
-  document.getElementById("clock").style.width = "700px";
-  document.getElementById("clock").style.padding = "10px";
-  document.getElementById("clock").style.border = "solid 4px orange";
-  document.getElementById("clock").style.fontFamily =
-    "'Press Start 2P', cursive";
-  document.getElementById("clock").style.fontSize = "40px";
-  document.getElementById("clock").style.marginTop = "0.01em";
-  document.getElementById("greeting").style.color = "orange";
-  document.getElementById("greeting").style.fontSize = "1.5em";
-  document.getElementById("greeting").style.fontFamily =
-    "'Press Start 2P', cursive";
-  document.getElementById("greeting").style.marginTop = "2em";
-  document.getElementById("greeting").style.marginBottom = "1em";
-  document.getElementById("h2").style.fontFamily = "'Press Start 2P', cursive";
-  document.getElementById("creepy").style.fontFamily =
-    "'Press Start 2P', cursive";
-  document.getElementById("typewriter").style.fontFamily =
-    "'Press Start 2P', cursive";
-  document.getElementById("dimensional").style.fontFamily =
-    "'Press Start 2P', cursive";
-  document.getElementById("creepy").style.fontSize = ".7em";
-  document.getElementById("typewriter").style.fontSize = ".7em";
-  document.getElementById("dimensional").style.fontSize = ".7em";
-  document.getElementById("creepy").style.width = "30em";
-  document.getElementById("typewriter").style.width = "30em";
-  document.getElementById("dimensional").style.width = "30em";
-  document.getElementById("resetColors").style.fontFamily =
-    "'Press Start 2P', cursive";
-  document.getElementById("resetColors").style.fontSize = ".7em";
-}
+
 
 function creepy() {
   document.getElementById("h2").style.fontFamily = "'Creepster', cursive";

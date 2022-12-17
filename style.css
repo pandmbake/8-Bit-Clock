@@ -78,6 +78,14 @@ h3 {
     }
   }
 
+  @media screen and (max-width: 760px) {
+    #clock {
+     width: 400px;
+     }
+ 
+    
+   }
+
   @media screen and (max-width: 550px) {
     #clock {
      width: 300px;
