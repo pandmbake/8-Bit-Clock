@@ -58,9 +58,9 @@ function creepy() {
   document.getElementById("eightBit").style.fontFamily = "'Creepster', cursive";
   document.getElementById("eightBit").style.fontSize = "1.3em";
   document.getElementById("eightBit").style.width = "15em";
-  document.getElementById("creepy").style.display = "none";
-  document.getElementById("typewriter").style.display = "flex";
-  document.getElementById("dimensional").style.display = "flex";
+  document.getElementById("creepy").style.color = "black";
+  document.getElementById("typewriter").style.color = "black";
+  document.getElementById("dimensional").style.color = "black";
 }
 
 function typewriter() {
@@ -103,6 +103,9 @@ function typewriter() {
   document.getElementById("typewriter").style.display = "none";
   document.getElementById("creepy").style.display = "flex";
   document.getElementById("dimensional").style.display = "flex";
+  document.getElementById("creepy").style.color = "black";
+  document.getElementById("typewriter").style.color = "black";
+  document.getElementById("dimensional").style.color = "black";
 }
 
 function dimensional() {
@@ -139,9 +142,12 @@ function dimensional() {
   document.getElementById("dimensional").style.display = "none";
   document.getElementById("typewriter").style.display = "flex";
   document.getElementById("creepy").style.display = "flex";
+  document.getElementById("creepy").style.color = "black";
+  document.getElementById("typewriter").style.color = "black";
+  document.getElementById("dimensional").style.color = "black";
 }
 
-//font-family: 'Creepster', cursive;
-//font-family: 'Special Elite', cursive;
-//font-family: 'Nabla', cursive;
+/*font-family: 'Creepster', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Nabla', cursive;*/
 
