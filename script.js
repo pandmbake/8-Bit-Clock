@@ -34,7 +34,7 @@ function creepy() {
     'url("images/spooky-2.jpeg")';
   document.getElementById("h2").innerHTML = "Creepy Clock";
   document.getElementById("h2").style.fontSize = "5em";
-  document.getElementById("h2").style.marginTop = "1em";
+  document.getElementById("h2").style.marginTop = ".5em";
   document.getElementById("clock").style.fontSize = "4em";
   document.getElementById("greeting").style.fontSize = "3em";
   document.getElementById("greeting").style.marginTop = ".6em";
