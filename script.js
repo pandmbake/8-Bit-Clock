@@ -60,6 +60,7 @@ function creepy() {
   document.getElementById("eightBit").style.width = "15em";
   document.getElementById("creepy").style.color = "black";
   document.getElementById("typewriter").style.color = "black";
+  document.getElementById("eightBit").style.color = "black";
   document.getElementById("dimensional").style.color = "black";
   document.getElementById("creepy").style.display = 'none';
   document.getElementById("typewriter").style.display = "flex";
