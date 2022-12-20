@@ -115,9 +115,9 @@ function typewriter() {
 }
 
 function dimensional() {
-  document.getElementById("h2").style.fontFamily = "'Macondo', cursive";
-  document.getElementById("clock").style.fontFamily = "'Macondo', cursive";
-  document.getElementById("greeting").style.fontFamily = "'Macondo', cursive";
+  document.getElementById("h2").style.fontFamily = "'Londrina Solid', cursive;";
+  document.getElementById("clock").style.fontFamily = "'Londrina Solid', cursive;";
+  document.getElementById("greeting").style.fontFamily = "'Londrina Solid', cursive;";
   document.getElementById("main").style.backgroundImage =
     'url("images/night.png")';
   document.getElementById("main").style.backgroundSize = "cover";
@@ -132,9 +132,9 @@ function dimensional() {
   document.getElementById("clock").style.border = "4px solid yellow";
   document.getElementById("clock").style.marginTop = "-.9em";
   document.getElementById("clock").style.color = "yellow";
-  document.getElementById("creepy").style.fontFamily = "'Macondo', cursive";
-  document.getElementById("typewriter").style.fontFamily = "'Macondo', cursive";
-  document.getElementById("dimensional").style.fontFamily = "'Macondo', cursive";
+  document.getElementById("creepy").style.fontFamily = "'Londrina Solid', cursive;";
+  document.getElementById("typewriter").style.fontFamily = "'Londrina Solid', cursive;";
+  document.getElementById("dimensional").style.fontFamily = "'Londrina Solid', cursive;";
   document.getElementById("creepy").style.fontSize = "1.3em";
   document.getElementById("typewriter").style.fontSize = "1.3em";
   document.getElementById("dimensional").style.fontSize = "1.3em";
@@ -143,7 +143,7 @@ function dimensional() {
   document.getElementById("dimensional").style.width = "15em";
   document.getElementById("greeting").style.marginBottom = "-.2em";
   document.getElementById("eightBit").style.display = "flex";
-  document.getElementById("eightBit").style.fontFamily = "'Macondo', cursive";
+  document.getElementById("eightBit").style.fontFamily = "'Londrina Solid', cursive;";
   document.getElementById("eightBit").style.fontSize = "1.3em";
   document.getElementById("eightBit").style.width = "15em";
   document.getElementById("eightBit").style.color = "yellow";
@@ -155,9 +155,4 @@ function dimensional() {
   document.getElementById("dimensional").style.color = "yellow";
   document.getElementById("styleButtons").style.display = "flex";
 }
-
-/*font-family: 'Creepster', cursive;
-font-family: 'Special Elite', cursive;
-font-family: 'Nabla', cursive;
-font-family: 'Rubik Moonrocks', cursive;*/
 
