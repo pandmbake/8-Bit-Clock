@@ -45,14 +45,14 @@ function creepy() {
   document.getElementById("clock").style.marginTop = "-1em";
   document.getElementById("typewriter").style.fontFamily =
     "'Creepster', cursive";
-  document.getElementById("dimensional").style.fontFamily =
+  document.getElementById("moon").style.fontFamily =
     "'Creepster', cursive";
   document.getElementById("creepy").style.fontSize = "1.3em";
   document.getElementById("typewriter").style.fontSize = "1.3em";
-  document.getElementById("dimensional").style.fontSize = "1.3em";
+  document.getElementById("moon").style.fontSize = "1.3em";
   document.getElementById("creepy").style.width = "15em";
   document.getElementById("typewriter").style.width = "15em";
-  document.getElementById("dimensional").style.width = "15em";
+  document.getElementById("moon").style.width = "15em";
   document.getElementById("greeting").style.marginBottom = "-.2em";
   document.getElementById("eightBit").style.display = "flex";
   document.getElementById("eightBit").style.fontFamily = "'Creepster', cursive";
@@ -61,10 +61,10 @@ function creepy() {
   document.getElementById("creepy").style.color = "black";
   document.getElementById("typewriter").style.color = "black";
   document.getElementById("eightBit").style.color = "black";
-  document.getElementById("dimensional").style.color = "black";
+  document.getElementById("moon").style.color = "black";
   document.getElementById("creepy").style.display = 'none';
   document.getElementById("typewriter").style.display = "flex";
-  document.getElementById("dimensional").style.display = "flex";
+  document.getElementById("moon").style.display = "flex";
 }
 
 function typewriter() {
@@ -91,14 +91,14 @@ function typewriter() {
     "'Special Elite', cursive";
   document.getElementById("typewriter").style.fontFamily =
     "'Special Elite', cursive";
-  document.getElementById("dimensional").style.fontFamily =
+  document.getElementById("moon").style.fontFamily =
     "'Special Elite', cursive";
   document.getElementById("creepy").style.fontSize = "1.3em";
   document.getElementById("typewriter").style.fontSize = "1.3em";
-  document.getElementById("dimensional").style.fontSize = "1.3em";
+  document.getElementById("moon").style.fontSize = "1.3em";
   document.getElementById("creepy").style.width = "15em";
   document.getElementById("typewriter").style.width = "16em";
-  document.getElementById("dimensional").style.width = "15em";
+  document.getElementById("moon").style.width = "15em";
   document.getElementById("greeting").style.marginBottom = "-.2em";
   document.getElementById("eightBit").style.display = "flex";
   document.getElementById("eightBit").style.fontFamily =
@@ -108,16 +108,16 @@ function typewriter() {
   document.getElementById("eightBit").style.color = "black";
   document.getElementById("typewriter").style.display = "none";
   document.getElementById("creepy").style.display = "flex";
-  document.getElementById("dimensional").style.display = "flex";
+  document.getElementById("moon").style.display = "flex";
   document.getElementById("creepy").style.color = "black";
   document.getElementById("typewriter").style.color = "black";
-  document.getElementById("dimensional").style.color = "black";
+  document.getElementById("moon").style.color = "black";
 }
 
-function dimensional() {
-  document.getElementById("h2").style.fontFamily = "'Londrina Solid', cursive;";
-  document.getElementById("clock").style.fontFamily = "'Londrina Solid', cursive;";
-  document.getElementById("greeting").style.fontFamily = "'Londrina Solid', cursive;";
+function moon() {
+  document.getElementById("h2").style.fontFamily = "'Jim Nightshade', cursive";
+  document.getElementById("clock").style.fontFamily = "'Jim Nightshade', cursive";
+  document.getElementById("greeting").style.fontFamily = "'Jim Nightshade', cursive";
   document.getElementById("main").style.backgroundImage =
     'url("images/night.png")';
   document.getElementById("main").style.backgroundSize = "cover";
@@ -132,27 +132,27 @@ function dimensional() {
   document.getElementById("clock").style.border = "4px solid yellow";
   document.getElementById("clock").style.marginTop = "-.9em";
   document.getElementById("clock").style.color = "yellow";
-  document.getElementById("creepy").style.fontFamily = "'Londrina Solid', cursive;";
-  document.getElementById("typewriter").style.fontFamily = "'Londrina Solid', cursive;";
-  document.getElementById("dimensional").style.fontFamily = "'Londrina Solid', cursive;";
+  document.getElementById("creepy").style.fontFamily = "'Jim Nightshade', cursive";
+  document.getElementById("typewriter").style.fontFamily = "'Jim Nightshade', cursive";
+  document.getElementById("moon").style.fontFamily = "'Jim Nightshade', cursive";
   document.getElementById("creepy").style.fontSize = "1.3em";
   document.getElementById("typewriter").style.fontSize = "1.3em";
-  document.getElementById("dimensional").style.fontSize = "1.3em";
+  document.getElementById("moon").style.fontSize = "1.3em";
   document.getElementById("creepy").style.width = "15em";
   document.getElementById("typewriter").style.width = "16em";
-  document.getElementById("dimensional").style.width = "15em";
+  document.getElementById("moon").style.width = "15em";
   document.getElementById("greeting").style.marginBottom = "-.2em";
   document.getElementById("eightBit").style.display = "flex";
-  document.getElementById("eightBit").style.fontFamily = "'Londrina Solid', cursive;";
+  document.getElementById("eightBit").style.fontFamily = "'Jim Nightshade', cursive";
   document.getElementById("eightBit").style.fontSize = "1.3em";
   document.getElementById("eightBit").style.width = "15em";
   document.getElementById("eightBit").style.color = "yellow";
-  document.getElementById("dimensional").style.display = "none";
+  document.getElementById("moon").style.display = "none";
   document.getElementById("typewriter").style.display = "flex";
   document.getElementById("creepy").style.display = "flex";
   document.getElementById("creepy").style.color = "yellow";
   document.getElementById("typewriter").style.color = "yellow";
-  document.getElementById("dimensional").style.color = "yellow";
+  document.getElementById("moon").style.color = "yellow";
   document.getElementById("styleButtons").style.display = "flex";
 }
 

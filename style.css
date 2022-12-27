@@ -40,7 +40,7 @@ h3 {
     gap: 2em;
 }
 
-#creepy, #typewriter, #dimensional {
+#creepy, #typewriter, #moon {
     display: flex;
     justify-content: center;
     font-family: 'Press Start 2P', cursive;
@@ -52,6 +52,8 @@ h3 {
     color: black;
 
 }
+
+
 
 #eightBit {
     display: flex;
